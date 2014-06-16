@@ -20,7 +20,6 @@ var MenuItem = React.createClass({
 
   handleClick: function (e) {
     if (this.props.onSelect) {
-      e.preventDefault();
       this.props.onSelect(this.props.key);
     }
   },
